@@ -1,0 +1,10 @@
+_site/
+*.php
+cache/
+index.html?*
+wp-content/plugins/
+wp-content/uploads/WP-STATIC-*
+wp-content/uploads/WP2STATIC-*
+wp-content/wflogs/
+wp-json/
+wp-static-html-output-*/
