@@ -75,19 +75,7 @@ var gadwpUAEventsData = {"options":{"event_tracking":"1","event_downloads":"zip|
 <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="/the-beginning/">The Beginning</a></li>
 <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="/beauty-of-friends/">Beauty of Friends</a></li>
 <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="/poetry-of-space/">Poetry of Space</a></li>
-<li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57"><a href="#">Search</a></li>
 </ul></div>          </nav>
-          <div class="search-wrapper">
-            <div class="search-input-wrapper">
-              <div class="search-close close-button"></div>
-              <form role="search" method="get" class="search-form" action="/">
-                <label>
-                  <span class="screen-reader-text visuallyhidden">Search for:</span>
-                  <input type="search" id="search-input" class="search-field search-input" name="s" placeholder="Search for artists, authors, topics, essay text..." value="" />
-                </label>
-              </form>
-            </div>
-          </div>
         </header>
     <div class="index-view">
       <span><a href="/artists/">Index</a></span>
@@ -332,15 +320,6 @@ var gadwpUAEventsData = {"options":{"event_tracking":"1","event_downloads":"zip|
     ga('send', 'pageview');
 
   </script>
-  <script type='text/javascript' src='/wp-includes/js/underscore.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var DavesWordPressLiveSearchConfig = {"resultsDirection":"down","showThumbs":"false","showExcerpt":"false","showMoreResultsLink":"true","minCharsToSearch":"3","xOffset":"0","yOffset":"0","blogURL":"http:\/\/cometogethersandy.com","ajaxURL":"http:\/\/cometogethersandy.com\/wp-admin\/admin-ajax.php","viewMoreText":"View more results","outdatedJQuery":"Dave's WordPress Live Search requires jQuery 1.2.6 or higher. WordPress ships with current jQuery versions. But if you are seeing this message, it's likely that another plugin is including an earlier version.","resultTemplate":"<ul id=\"dwls_search_results\" class=\"search_results dwls_search_results\" role=\"presentation\" aria-hidden=\"true\">\n<input type=\"hidden\" name=\"query\" value=\"<%- resultsSearchTerm %>\" \/>\n<% _.each(searchResults, function(searchResult, index, list) { %>\n        <%\n        \/\/ Thumbnails\n        if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) {\n                liClass = \"post_with_thumb\";\n        }\n        else {\n                liClass = \"\";\n        }\n        %>\n        <li class=\"daves-wordpress-live-search_result <%- liClass %> '\">\n        <% if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) { %>\n                <img src=\"<%= searchResult.attachment_thumbnail %>\" class=\"post_thumb\" \/>\n        <% } %>\n\n        <a href=\"<%= searchResult.permalink %>\" class=\"daves-wordpress-live-search_title\"><%= searchResult.post_title %><\/a>\n\n        <% if(searchResult.post_price !== undefined) { %>\n                <p class=\"price\"><%- searchResult.post_price %><\/p>\n        <% } %>\n\n        <% if(DavesWordPressLiveSearchConfig.showExcerpt == \"true\" && searchResult.post_excerpt) { %>\n                <p class=\"excerpt clearfix\"><%= searchResult.post_excerpt %><\/p>\n        <% } %>\n\n        <% if(e.displayPostMeta) { %>\n                <p class=\"meta clearfix daves-wordpress-live-search_author\" id=\"daves-wordpress-live-search_author\">Posted by <%- searchResult.post_author_nicename %><\/p><p id=\"daves-wordpress-live-search_date\" class=\"meta clearfix daves-wordpress-live-search_date\"><%- searchResult.post_date %><\/p>\n        <% } %>\n        <div class=\"clearfix\"><\/div><\/li>\n<% }); %>\n\n<% if(searchResults[0].show_more !== undefined && searchResults[0].show_more && DavesWordPressLiveSearchConfig.showMoreResultsLink == \"true\") { %>\n        <div class=\"clearfix search_footer\"><a href=\"<%= DavesWordPressLiveSearchConfig.blogURL %>\/?s=<%-  resultsSearchTerm %>\"><%- DavesWordPressLiveSearchConfig.viewMoreText %><\/a><\/div>\n<% } %>\n\n<\/ul>"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='/wp-content/plugins/daves-wordpress-live-search/js/daves-wordpress-live-search.min.js'></script>
-<script type='text/javascript' src='/wp-content/plugins/daves-wordpress-live-search/js/excanvas.compiled.js'></script>
-<script type='text/javascript' src='/wp-content/plugins/daves-wordpress-live-search/js/spinners.min.js'></script>
 </body>
 </html>
 
