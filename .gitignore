@@ -10,9 +10,6 @@ wp-json/
 wp-static-html-output-*/
 
 wp-content/plugins/
-!wp-content/plugins/daves-wordpress-live-search/js/daves-wordpress-live-search.min.js
-!wp-content/plugins/daves-wordpress-live-search/js/excanvas.compiled.js
-!wp-content/plugins/daves-wordpress-live-search/js/spinners.min.js
 !wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-analytics-events.js
 !wp-content/themes/sandy/css/build/minified/application.css
 !wp-content/themes/sandy/fonts/FranklinCondITCPro-Bold.ttf
